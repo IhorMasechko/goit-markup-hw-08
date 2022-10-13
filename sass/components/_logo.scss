@@ -1,0 +1,57 @@
+.logo {
+  @media screen and (max-width: 479px) {
+    display: block;
+    font-family: raleway, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: $nav-text-color;
+    padding: 16px 0 16px 15px;
+  }
+
+  @media screen and (min-width: 480px) {
+    display: flex;
+    align-items: center;
+    font-family: raleway, sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    text-decoration: none;
+    color: $nav-text-color;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration: none;
+    color: $nav-text-color;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    margin-right: 93px;
+  }
+}
+
+// .logo--bottom {
+//   display: block;
+//   font-family: raleway, sans-serif;
+//   font-weight: 700;
+//   font-size: 26px;
+//   line-height: 1.2;
+//   letter-spacing: 0.03em;
+//   text-decoration: none;
+//   margin-bottom: 20px;
+//   color: $nav-text-color;
+// }
+
+// .logo--black {
+//   color: $main-text-color;
+// }
+
+// .logo--white {
+//   color: $hero-text-color;
+// }
