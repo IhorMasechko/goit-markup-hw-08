@@ -1,5 +1,5 @@
 .logo {
-  @media screen and (max-width: 479px) {
+  @media screen and (max-width: 767px) {
     display: block;
     font-family: raleway, sans-serif;
     font-weight: 400;
@@ -10,7 +10,7 @@
     padding: 16px 0 16px 15px;
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;
     font-family: raleway, sans-serif;
@@ -21,7 +21,7 @@
     color: $nav-text-color;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 1200px) {
     display: flex;
     align-items: center;
     font-family: raleway, sans-serif;
