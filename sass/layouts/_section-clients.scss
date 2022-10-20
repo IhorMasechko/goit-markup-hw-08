@@ -1,34 +1,57 @@
-// .clients__title {
-//   @extend %title;
-// }
+.clients__title {
+  @media screen and (max-width: 1199px) {
+    color: #212121;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.18;
+    text-align: center;
+  }
+  @media screen and (min-width: 1200px) {
+    color: #212121;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+  }
+}
 
-// .clients__list {
-//   display: flex;
-//   gap: 30px;
-// }
+.clients__list {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+  }
+  //   gap: 30px;
+}
 
-// .clients__link {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   width: 170px;
-//   height: 92px;
-//   border: 1px solid $svg-link-color;
-//   border-radius: 4px;
-//   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.clients__item {
+  width: calc((100% - 4 * 15px) / 2);
+  margin: 15px;
+}
 
-//   &:hover,
-//   &:focus {
-//     border-color: $nav-text-color;
-//   }
+.clients__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 92px;
+  border: 1px solid $svg-link-color;
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-//   &:hover svg,
-//   &:focus svg {
-//     fill: $nav-text-color;
-//   }
-// }
+  &:hover,
+  &:focus {
+    border-color: $nav-text-color;
+  }
 
-// .clients__icon {
-//   fill: $svg-link-color;
-//   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-// }
+  &:hover svg,
+  &:focus svg {
+    fill: $nav-text-color;
+  }
+}
+
+.clients__icon {
+  fill: $svg-link-color;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
