@@ -1,72 +1,133 @@
-// .subscribe {
-//   display: flex;
-//   margin-top: 12px;
-//   margin-left: 93px;
-// }
+.subscribe {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-// .subscribe__bloc {
-//   display: flex;
-//   flex-direction: column;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 768px;
+  }
 
-//   & label {
-//     font-weight: 700;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.03em;
-//     text-transform: uppercase;
-//     margin-bottom: 20px;
-//     color: $hero-text-color;
-//   }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    margin-left: 93px;
+  }
+}
 
-//   & input {
-//     font-size: 16px;
-//     line-height: 1.25;
-//     width: 358px;
-//     height: 50px;
-//     padding: 15px 0px 15px 16px;
-//     margin-right: 12px;
-//     border: 1px solid rgba(255, 255, 255, 0.3);
-//     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-//     border-radius: 4px;
-//     color: rgba(255, 255, 255, 0.6);
-//     background-color: #2f303a;
-//   }
+.subscribe__bloc {
+  display: flex;
+  flex-direction: column;
 
-//   & input::placeholder {
-//     font-size: 16px;
-//     line-height: 1.25;
-//     display: flex;
-//     align-items: center;
-//     color: rgba(255, 255, 255, 0.6);
-//   }
-// }
+  & label {
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 120px;
+    }
 
-// .subscribe__button {
-//   font-family: inherit;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-weight: 700;
-//   font-size: 16px;
-//   line-height: 1.88;
-//   letter-spacing: 0.06em;
-//   border: none;
-//   width: 200px;
-//   height: 50px;
-//   padding: 10px 28px;
-//   margin-top: 36px;
-//   background: $nav-text-color;
-//   border-radius: 4px;
-//   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-//   color: $hero-text-color;
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
 
-//   &:hover,
-//   &:focus {
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//   }
-// }
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
-// .subscribe__icon {
-//   margin-left: 10px;
-//   fill: $hero-text-color;
-// }
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: $hero-text-color;
+  }
+
+  & input {
+    @media screen and(max-width:479px) {
+      width: 100%;
+    }
+    @media screen and(min-width:480px) {
+      width: 450px;
+    }
+
+    @media screen and(min-width:768px) {
+      width: 450px;
+    }
+
+    @media screen and(min-width:1200px) {
+      width: 358px;
+      margin-right: 12px;
+    }
+    font-size: 16px;
+    line-height: 1.25;
+    height: 50px;
+    padding: 15px 0px 15px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2f303a;
+  }
+
+  & input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+.subscribe__button {
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  border: none;
+  width: 200px;
+  height: 50px;
+  padding: 10px 28px;
+  background: $nav-text-color;
+  border-radius: 4px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: $hero-text-color;
+
+  @media screen and (max-width: 767px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-top: 20px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 36px;
+  }
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.subscribe__icon {
+  margin-left: 10px;
+  fill: $hero-text-color;
+}

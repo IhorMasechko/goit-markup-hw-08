@@ -1,42 +1,42 @@
 .works {
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 1199px) {
     display: none;
   }
 }
 
-// .works__title {
-//   @extend %title;
-// }
+.works__title {
+  @extend %title;
+}
 
-// .works__list {
-//   display: flex;
-//   gap: 30px;
-// }
+.works__list {
+  display: flex;
+  gap: 30px;
+}
 
-// .works__bloc {
-//   position: relative;
-//   width: 370px;
-//   height: 294px;
-//   z-index: 1;
-// }
+.works__bloc {
+  position: relative;
+  width: 370px;
+  height: 294px;
+  z-index: 1;
+}
 
-// .works__bloc--secondary {
-//   position: absolute;
-//   bottom: 0;
-//   left: 0;
-//   width: 370px;
-//   height: 70px;
-//   z-index: 2;
-//   background-color: rgba(47, 48, 58, 0.8);
-// }
+.works__bloc--secondary {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 370px;
+  height: 70px;
+  z-index: 2;
+  background-color: rgba(47, 48, 58, 0.8);
+}
 
-// .works__text {
-//   font-weight: 700;
-//   font-size: 14px;
-//   line-height: 16px;
-//   text-align: center;
-//   margin-top: 27px;
-//   margin-bottom: 27px;
-//   text-transform: uppercase;
-//   color: $hero-text-color;
-// }
+.works__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  text-transform: uppercase;
+  color: $hero-text-color;
+}
