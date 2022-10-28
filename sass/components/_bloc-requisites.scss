@@ -13,14 +13,14 @@
 }
 
 .requisites__item {
-  @media screen and (max-widht: 767px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 8px;
   }
-  @media screen and (min-widht: 768px) {
+  @media screen and (min-width: 768px) {
     margin-bottom: 8px;
   }
 
-  @media screen and (min-widht: 1200px) {
+  @media screen and (min-width: 1200px) {
     margin-bottom: 9px;
   }
 }

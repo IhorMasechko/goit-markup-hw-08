@@ -1366,17 +1366,17 @@ textarea {
   }
 }
 
-@media screen and (max-widht: 767px) {
+@media screen and (max-width: 767px) {
   .requisites__item {
     margin-bottom: 8px;
   }
 }
-@media screen and (min-widht: 768px) {
+@media screen and (min-width: 768px) {
   .requisites__item {
     margin-bottom: 8px;
   }
 }
-@media screen and (min-widht: 1200px) {
+@media screen and (min-width: 1200px) {
   .requisites__item {
     margin-bottom: 9px;
   }
