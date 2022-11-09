@@ -74,7 +74,7 @@
 .mobile-menu__link {
   @media screen and (max-width: 767px) {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 8vw;
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: $main-text-color;
@@ -84,7 +84,7 @@
 .mobile-menu__link--current {
   @media screen and (max-width: 767px) {
     font-weight: 500;
-    font-size: 40px;
+    font-size: 8vw;
     line-height: 1.18;
     letter-spacing: 0.02em;
     color: $nav-text-color;
@@ -93,7 +93,7 @@
 
 .mobile-menu__link--secondarym {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 5vw;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: $secondary-text-color;
@@ -101,7 +101,7 @@
 
 .mobile-menu__link--secondaryp {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 7vw;
   line-height: 1.18;
   letter-spacing: 0.02em;
   color: $nav-text-color;
